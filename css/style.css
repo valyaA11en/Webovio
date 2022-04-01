@@ -1,0 +1,351 @@
+/*Обнуление*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h4,
+h5,
+h6 {
+    font-weight: inherit;
+    font-family: inherit;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    /*overflow: hidden;*/
+    flex-direction: column;
+
+}
+
+/*-----------------------------------------*/
+.main {
+    flex: 1 1 auto;
+    position: relative;
+}
+
+[class *="__container"] {
+    max-width: 1111px;
+    margin: 0 auto;
+
+}
+
+.back {
+    background: url("../img/img.png") no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    z-index: 0;
+}
+
+.header__logo__container {
+    display: flex;
+    color: #E5E5E5;
+    padding-top: 23px;
+}
+
+.text__logo {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/* меню */
+
+.description__container {
+    padding-bottom: 107px;
+}
+
+.mimi__description {
+    margin-top: 188px;
+    color: #FFFFFF;
+    font-size: 14px;
+    padding-bottom: 22px;
+}
+
+.description__strategy {
+    padding-top: 244px;
+    margin-bottom: 24px;
+}
+
+.brands__description {
+    font-size: 60px;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+    line-height: 74px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+.digital__description {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #E5E5E5;
+    margin-bottom: 45px;
+
+
+}
+
+.touch__description {
+    color: #D4D6D4;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+.touch__description:hover {
+    color: #FFD723;
+    text-decoration: underline;
+    transition: all .3s linear;
+
+}
+
+.rectangle {
+    top: -100px;
+    position: absolute;
+    width: 80%;
+    padding: 66px 0 66px 66px;
+    height: 226px;
+    background: #FFFFFF;
+    z-index: 1;
+    right: 0;
+
+}
+
+.rectangle__block {
+    width: 1045px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.rectangle__container {
+    position: absolute;
+    right: 300px;
+    z-index: 10;
+    width: 100%;
+}
+
+.Development__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 66px;
+}
+
+.Development {
+    display: flex;
+    width: 100%;
+    height: 670px;
+}
+
+.dev__Development {
+    height: 366px;
+}
+
+.black {
+    color: black;
+}
+
+.Development__point {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    width: 475px;
+    height: 138px;
+    margin-bottom: 35px;
+}
+
+.Development__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    width: 475px;
+    height: 78px;
+}
+
+.ceo {
+    text-align: center;
+    width: 474px;
+    height: 520px;
+    background: #ffffff;
+    margin-left: 160px;
+    padding-left: 40px;
+    -webkit-box-shadow: 1px 18px 47px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 18px 47px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 1px 18px 47px 10px rgba(0, 0, 0, 0.2);
+}
+
+.ceo__text {
+    width: 426px;
+    height: 200px;
+    text-align: left;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 50px;
+}
+
+
+.graund {
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.ceo__card {
+    display: flex;
+    align-items: start;
+}
+
+.ceoCard__text {
+    text-align: center;
+    width: 238px;
+    height: 62px;
+    padding-top: 35px;
+}
+
+.card__title {
+    text-align: center;
+    vertical-align: middle;
+    font-weight: bold;
+    padding-bottom: 6px;
+}
+
+.about {
+    margin-top: 42px;
+}
+.line__container{
+    border: none; /* Убираем границу */
+    background-color: #000000; /* Цвет линии */
+    height: 1px; /* Толщина линии */
+    margin-top: 99px;
+}
+
+.heading__container{
+    display: flex;
+    margin-top: 150px;
+    width: 976px;
+    height: 102px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.heading__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    margin-right: 133px;
+    display: inline;
+
+}
+.heading__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.project{
+    margin: 110px 107px 100px 27px;
+    display: flex;
+    position: relative;
+}
+.project__heading{
+   padding: 120px 20px 20px;
+}
+.project__title{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    padding-bottom: 43px;
+}
+.project__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+}
+.project__card{
+    margin-right: 100px;
+}
+.project__btn{
+    margin-top: 90px;
+}
+.developer__card{
+    position: absolute;
+
+    width: 453px;
+    height: 243px;
+    background-color: #ffffff;
+    top: 372px;
+    left: 322px;
+    -webkit-box-shadow: 100px 2px 100px 37px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 100px 2px 100px 37px rgba(34, 60, 80, 0.2);
+    box-shadow: 100px 2px 100px 37px rgba(34, 60, 80, 0.2);
+}
+.developer__description{
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 30px;
+}
+.developer__name{
+    display: flex;
+}
+.developer__img{
+}
+
+.padd{
+    padding-bottom: 33px;
+}
+
+.developer__text{
+    padding: 20px 2px 2px;
+}
+
